@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  width: 400px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+
+.qrcode {
+  box-shadow: rgb(168, 168, 168) 0 0 5px 1px;
+  border-radius: 20px;
+}
+
+#qrcode {
+  margin: 20px;
+}
+
+.download-btn {
+  margin: 20px;
+}
